@@ -61,7 +61,7 @@ export default function Features() {
           position={"relative"}
           w={"full"}
         >
-          <Blob
+          {/* <Blob
             w={"150%"}
             h={"150%"}
             position={"absolute"}
@@ -69,7 +69,7 @@ export default function Features() {
             left={0}
             zIndex={-1}
             color={useColorModeValue("blue.50", "blue.400")}
-          />
+          /> */}
           <Box
             position={"relative"}
             height={"350px"}
