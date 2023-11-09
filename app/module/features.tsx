@@ -8,7 +8,6 @@ import {
   Image,
   Stack,
   Text,
-  useColorModeValue,
 } from "@chakra-ui/react";
 import image from "../image/background.jpeg";
 
@@ -61,15 +60,6 @@ export default function Features() {
           position={"relative"}
           w={"full"}
         >
-          {/* <Blob
-            w={"150%"}
-            h={"150%"}
-            position={"absolute"}
-            top={"-20%"}
-            left={0}
-            zIndex={-1}
-            color={useColorModeValue("blue.50", "blue.400")}
-          /> */}
           <Box
             position={"relative"}
             height={"350px"}

@@ -114,7 +114,6 @@ const ArticleList = () => {
           marginTop={{ base: "3", sm: "0" }}
           gap={3}
         >
-          {/* <BlogTags tags={["Engineering", "Product"]} /> */}
           <Heading marginTop="1">
             <Text textDecoration="none" _hover={{ textDecoration: "none" }}>
               Sejarah Kami
